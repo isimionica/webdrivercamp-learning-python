@@ -1,2 +1,2 @@
-# webdrivercamp-learning-python-python_beginning
+# webdrivercamp-learning-python
 New Python project 
