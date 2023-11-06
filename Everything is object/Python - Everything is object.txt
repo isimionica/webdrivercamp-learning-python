@@ -1,0 +1,119 @@
+0. What function would you use to print the type of an object?
+    print(type(object))
+
+1. How do you get the variable identifier (which is the memory address in the CPython implementation)?
+    id() function
+
+2. In the following code, do a and b point to the same object?
+   Answer: No
+
+3. In the following code, do a and b point to the same object?
+   Answer: Yes
+
+4. In the following code, do a and b point to the same object?
+    if we assign one variable to another, both variables refer to the same object
+   Answer: Yes
+
+5. In the following code, do a and b point to the same object?
+   Answer: No
+
+6. What does this print?
+   Answer: will print True because they are equal 
+
+7. What does this print?
+   Answer:True
+
+8. What does this print?
+   Answer:True
+
+9. What does this print?
+   Answer:True
+
+10. What does this print?
+   Answer: will print True because they are equal
+
+11. What does this print?
+   Answer:True
+
+12. What does this print?
+   Answer:True
+
+13. What does this print?
+   Answer:True
+
+14. What does this print?
+Print function will return extended list [1, 2, 3, 4]. Because both l1 and l2 point to the same object.
+
+15. What does this print?
+   list l2 = [1, 2, 3]
+
+16. What does this print?
+   a = 1
+
+17. What does this print?
+   list = [1, 2, 3, 4]
+
+18. What does this print?
+   l1 = [1, 2, 3]
+
+19. What would these lines print?
+dict_ = {"WebDriver": "Camp"}
+dict_copy = dict_
+print(dict_ == dict_copy) =True
+print(dict_ is dict_copy) =True
+
+dict_copy = dict_.copy()
+print(dict_ == dict_copy) =True
+print(dict_ is dict_copy) =False
+
+19. What would these lines print?
+list_ = [1, 2, 3, 4, 5]
+list_copy = list_
+print(list_ == list_copy) =True
+print(list_ is list_copy) =True
+
+list_copy = list_.copy()
+print(list_ == list_copy) =True
+print(list_ is list_copy) =False
+
+
+20. Tuple or not?
+a = ()
+Answer: Yes
+
+21. Tuple or not?
+a = (1, 2)
+Answer: Yes
+
+22. Tuple or not?
+a = (1)
+a = integer
+
+23. Tuple or not
+a = (1, )
+b = 1,
+Answer: Yes
+
+24. What does this script print?
+a = (1)
+b = (1)
+a is b
+The code check if a and b are the same object (integers). True
+
+25. What does this script print?
+a = (1, 2)
+b = (1, 2)
+a is b
+The code check if a and b are the same object (tuple) . True
+
+26. What does this print?
+a = ()
+b = ()
+a is b
+The code check if a and b are the same object (tuple) . True
+
+27. What does this print?
+ Printing id(a) - will be different to 139926795932424 because is adding [5]
+
+28. What does this print?
+ Printing id(a) - 139926795932424.
